@@ -30,8 +30,8 @@ Customer Churn Prediction
 - Exited : Terk mi değil mi? (0=No,1=Yes)
 
 # Accomplishments
-# Cross Validation Results
-## Models Without Preprocessing
+## Cross Validation Results
+### Models Without Preprocessing
 LR: 0.783\
 KNN: 0.7565\
 CART: 0.7885\
@@ -40,14 +40,15 @@ SVC: 0.7865\
 XGBoost: 0.8465\
 LGBM: 0.8515
 
-## Models Without Hyperparameter Optimization
-LR: 0.809076682316119
-KNN: 0.8215962441314554
-CART: 0.7949921752738655
-RF: 0.8612415232133542
-SVC: 0.844548774126239
-XGBoost: 0.8633281168492436
+### Models Without Hyperparameter Optimization
+LR: 0.809076682316119\
+KNN: 0.8215962441314554\
+CART: 0.7949921752738655\
+RF: 0.8612415232133542\
+SVC: 0.844548774126239\
+XGBoost: 0.8633281168492436\
 LGBM: 0.8633281168492436
+
 ## Solving Imbalances
 ### RandomForestClassifier Score With Smote
 RFC : 0.9047424366312347
